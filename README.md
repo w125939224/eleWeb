@@ -14,7 +14,7 @@
 
 ### 使用说明
 
-#### 一键Docker部署命令（网友贡献）
+#### 一键Docker部署命令（网友提供）
 ```shell
 a=arm64;if [[ $(uname -a | grep "x86_64") != "" ]];then a=x64;fi;git clone https://ghproxy.com/https://github.com/funaihui/eleWeb.git;docker run -itd --name eleWeb -p 8080:8080 -w /etc/eleWeb -v $PWD/eleWeb:/etc/eleWeb --restart=unless-stopped centos bash -c "chmod +x eleWeb-linux-$a && ./eleWeb-linux-$a"
 ```
@@ -57,7 +57,7 @@ a=arm64;if [[ $(uname -a | grep "x86_64") != "" ]];then a=x64;fi;git clone https
 
 ### 最后
 
-有问题到qq群咨询：**546945960**
+有问题到qq群咨询：546945960
 
 ## 免责声明
 
