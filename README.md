@@ -14,6 +14,11 @@
 
 ### 使用说明
 
+#### 一键Docker部署命令（网友贡献）
+```shell
+a=arm64;if [[ $(uname -a | grep "x86_64") != "" ]];then a=x64;fi;git clone https://ghproxy.com/https://github.com/funaihui/eleWeb.git;docker run -itd --name eleWeb -p 8080:8080 -w /etc/eleWeb -v $PWD/eleWeb:/etc/eleWeb --restart=unless-stopped centos bash -c "chmod +x eleWeb-linux-$a && ./eleWeb-linux-$a"
+```
+#### 不使用docker
 1. 下载对应的执行文件和config.json文件并放在同一目录
 
 2. 再config.json文件中填写配置信息
