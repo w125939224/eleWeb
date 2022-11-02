@@ -57,7 +57,7 @@ a=arm64;if [[ $(uname -a | grep "x86_64") != "" ]];then a=x64;fi;git clone https
 
 ### 最后
 
-有问题到qq群咨询：546945960
+有问题到qq群咨询：**546945960**
 
 ## 免责声明
 
