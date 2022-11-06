@@ -4,6 +4,7 @@
     "client_id": "",
     "client_secret": "",
     "name": "",
-    "disabled": true,
-    "carmi":""
+    "disabled": false,
+    "carmi":"",
+    "announcement": "登录有效期为3天，记得按时登录"
 }
