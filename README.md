@@ -4,7 +4,7 @@
 
 | 字段          | 说明                               | 示例                   |
 | ------------- | ---------------------------------- | ---------------------- |
-| web_host      | 登录面板地址                       | http://baidu.com:8080/ |
+| web_port      | 面板端口                           | 8080                   |
 | hostname      | 青龙地址                           | http://baidu.com:8080/ |
 | client_id     | 青龙key                            | 123                    |
 | client_secret | 青龙secret                         | 123                    |
